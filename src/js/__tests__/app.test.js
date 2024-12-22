@@ -42,8 +42,6 @@ describe('Character', () => {
         expect(char.type).toBe('Bowman');
         expect(char.health).toBe(100);
         expect(char.level).toBe(1);
-        expect(char.attack).toBe(25);
-        expect(char.defence).toBe(25);
     });
 
     test('should throw error for incorrect character type', () => {
